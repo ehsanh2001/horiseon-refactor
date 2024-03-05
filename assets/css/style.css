@@ -76,35 +76,6 @@ p {
     background-position: center;
 }
 
-/* Aside Styles */
-.benefits {
-    margin-right: 20px;
-    padding: 20px;
-    clear: both;
-    float: right;
-    width: 20%;
-    height: 100%;
-    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
-        sans-serif;
-    background-color: #2589bd;
-
-    .benefit-style {
-        margin-bottom: 32px;
-        color: #ffffff;
-
-        h3 {
-            margin-bottom: 10px;
-            text-align: center;
-        }
-
-        img {
-            display: block;
-            margin: 10px auto;
-            max-width: 150px;
-        }
-    }
-}
-
 /* Main Styles */
 .content {
     width: 75%;
@@ -112,7 +83,7 @@ p {
     margin-left: 20px;
 }
 
-.content-style {
+.content-article {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -128,6 +99,36 @@ p {
     h2 {
         margin-bottom: 20px;
         font-size: 36px;
+    }
+}
+
+/* Aside Styles */
+.benefits {
+    margin-right: 20px;
+    padding: 20px;
+    clear: both;
+    float: right;
+    width: 20%;
+    height: 100%;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+        sans-serif;
+    background-color: #2589bd;
+
+    /* Aside Articles Styles */
+    .benefit-article {
+        margin-bottom: 32px;
+        color: #ffffff;
+
+        h3 {
+            margin-bottom: 10px;
+            text-align: center;
+        }
+
+        img {
+            display: block;
+            margin: 10px auto;
+            max-width: 150px;
+        }
     }
 }
 
